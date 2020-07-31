@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "soft_skill": "Scrum"
+    },
+    {
+        "id": 2,
+        "soft_skill": "Agile"
+    },
+    {
+        "id": 3,
+        "soft_skill": "GTD"
+    },
+    {
+        "id": 4,
+        "soft_skill": "Teamwork"
+    }
+]
