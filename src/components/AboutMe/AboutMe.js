@@ -1,25 +1,25 @@
 //Core
-import React from "react";
+import React from 'react';
 //Components
-import MainInfo from "./MainInfo";
-import Projects from "./Projects";
-import WorkExp from "./WorkExp";
-import Education from "./Education";
+import MainInfo from './MainInfo';
+import Projects from './Projects';
+import WorkExp from './WorkExp';
+import Education from './Education';
 //Data
-import projects from "../../data/projects.json";
+import projects from '../../data/projects.json';
 //Style
-import "../../styles/main.css";
+import '../../styles/main.css';
 
 const AboutMe = () => (
-  <section className="about-me-container">
-    <MainInfo />
+	<section className="about-me-container">
+		<MainInfo />
 
-    <Projects projects={projects} />
+		<Projects projects={projects} />
 
-    <WorkExp />
+		<WorkExp />
 
-    <Education />
-  </section>
+		<Education />
+	</section>
 );
 
 export default AboutMe;

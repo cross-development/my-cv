@@ -1,15 +1,15 @@
 //Core
-import React from "react";
+import React from 'react';
 //Components
-import Layout from "./Layout/Layout";
-import Sidebar from "./Sidebar/Sidebar";
-import AboutMe from "./AboutMe/AboutMe";
+import Layout from './Layout/Layout';
+import Sidebar from './Sidebar/Sidebar';
+import AboutMe from './AboutMe/AboutMe';
 
 const App = () => (
-  <Layout>
-    <Sidebar />
-    <AboutMe />
-  </Layout>
+	<Layout>
+		<Sidebar />
+		<AboutMe />
+	</Layout>
 );
 
 export default App;
