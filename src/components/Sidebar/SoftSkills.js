@@ -1,24 +1,29 @@
 //Core
 import React from 'react';
-import PropTypes from 'prop-types';
 //Styles
 import '../../styles/main.css';
 
-const SoftSkills = ({ softSkills }) => (
+const SoftSkills = () => (
 	<div className="skills-container">
 		<h3 className="skills-title">Soft Skills</h3>
 		<ul>
-			{softSkills.map(({ id, soft_skill }) => (
-				<li key={id} className="skills-item">
-					<span>{soft_skill}</span>
-				</li>
-			))}
+			<li className="skills-item">
+				<span>Scrum</span>
+			</li>
+
+			<li className="skills-item">
+				<span>Agile</span>
+			</li>
+
+			<li className="skills-item">
+				<span>Getting Things Done</span>
+			</li>
+
+			<li className="skills-item">
+				<span>Teamwork</span>
+			</li>
 		</ul>
 	</div>
 );
-
-SoftSkills.propTypes = {
-	softSkills: PropTypes.arrayOf(PropTypes.object).isRequired,
-};
 
 export default SoftSkills;

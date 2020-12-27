@@ -5,9 +5,7 @@ import Contacts from './Contacts';
 import HardSkills from './HardSkills';
 import SoftSkills from './SoftSkills';
 import ProfilePhoto from './ProfilePhoto';
-//Data
-import hardSkills from '../../data/hardSkills.json';
-import softSkills from '../../data/softSkills.json';
+import LanguageSkills from './LanguageSkills';
 //Styles
 import '../../styles/main.css';
 
@@ -17,9 +15,11 @@ const Sidebar = () => (
 
 		<Contacts />
 
-		<HardSkills hardSkills={hardSkills} />
+		<HardSkills />
 
-		<SoftSkills softSkills={softSkills} />
+		<SoftSkills />
+
+		<LanguageSkills />
 	</aside>
 );
 

@@ -1,7 +1,7 @@
 //Core
 import React from 'react';
 //Assets
-import profilePhoto from '../../assets/photo.png';
+import profilePhoto from '../../assets/avatar.png';
 //Styles
 import '../../styles/main.css';
 

@@ -8,6 +8,7 @@ import AboutMe from './AboutMe/AboutMe';
 const App = () => (
 	<Layout>
 		<Sidebar />
+
 		<AboutMe />
 	</Layout>
 );
